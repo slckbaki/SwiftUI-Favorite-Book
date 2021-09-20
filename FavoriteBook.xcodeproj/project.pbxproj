@@ -11,6 +11,8 @@
 		A143490126F91E0800D0533F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143490026F91E0800D0533F /* ContentView.swift */; };
 		A143490326F91E0D00D0533F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A143490226F91E0D00D0533F /* Assets.xcassets */; };
 		A143490626F91E0D00D0533F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A143490526F91E0D00D0533F /* Preview Assets.xcassets */; };
+		A143490E26F91F6400D0533F /* FavoriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143490D26F91F6400D0533F /* FavoriteModel.swift */; };
+		A143491026F926A400D0533F /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A143490F26F926A400D0533F /* DetailsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		A143490226F91E0D00D0533F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A143490526F91E0D00D0533F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A143490726F91E0D00D0533F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A143490D26F91F6400D0533F /* FavoriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteModel.swift; sourceTree = "<group>"; };
+		A143490F26F926A400D0533F /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 			children = (
 				A14348FE26F91E0800D0533F /* FavoriteBookApp.swift */,
 				A143490026F91E0800D0533F /* ContentView.swift */,
+				A143490F26F926A400D0533F /* DetailsView.swift */,
+				A143490D26F91F6400D0533F /* FavoriteModel.swift */,
 				A143490226F91E0D00D0533F /* Assets.xcassets */,
 				A143490726F91E0D00D0533F /* Info.plist */,
 				A143490426F91E0D00D0533F /* Preview Content */,
@@ -138,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A143490E26F91F6400D0533F /* FavoriteModel.swift in Sources */,
+				A143491026F926A400D0533F /* DetailsView.swift in Sources */,
 				A143490126F91E0800D0533F /* ContentView.swift in Sources */,
 				A14348FF26F91E0800D0533F /* FavoriteBookApp.swift in Sources */,
 			);
